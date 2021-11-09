@@ -70,25 +70,7 @@ $.ajax({
 
 const video = document.getElementById('video');
 const canvas = document.getElementById('canvas');
-const errorMsgElement = document.querySelector('span#errorMsg');
 
-const constraints = {
-  audio: false,
-  video: {
-    
-    facingMode: "user"
-  }
-};
-
-// Access webcam
-async function init() {
-  try {
-    const stream = await navigator.mediaDevices.getUserMedia(constraints);
-    handleSuccess(stream);
-  } catch (e) {
-    errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
-  }
-}
 
 // Success
 function handleSuccess(stream) {
