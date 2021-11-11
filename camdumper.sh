@@ -33,10 +33,10 @@ printf "                 [|]          \n"
 printf "              \_______/       \n"
 printf "               v     v        \n"
 printf "                ^___^         \n"
-printf "\e[1;92m   𝗖𝗔𝗠 𝗗𝗨𝗠𝗣𝗘𝗥      \e[0m\n"
+printf "\e[1;92m   MRX    \e[0m\n"
 
 
-printf " \e[1;77m tool created by KOMIK3R ,LiNuX-Mallu\e[0m \n"
+printf " \e[1;77m i4m_mrx\e[0m \n"
 
 printf "\n"
 
